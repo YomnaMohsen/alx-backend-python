@@ -7,5 +7,6 @@ async_gen = __import__('0-async_generator').async_generator
 
 
 async def async_comprehension() -> List[float]:
+    """collect 10 numbers and return them"""
     result = [item async for item in async_gen()]
     return result

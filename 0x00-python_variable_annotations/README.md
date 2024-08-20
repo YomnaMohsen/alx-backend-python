@@ -1,1 +1,0 @@
-These tasks are about function and variable annotation in python
